@@ -1,0 +1,12 @@
+.mainPersonal{
+    color: var(--text-color);
+
+    p{
+      font-size: var(--font-size-medium);
+      text-align: center;
+    }
+  
+    h1{
+      font-size: var(--font-size-big);
+    }
+  }

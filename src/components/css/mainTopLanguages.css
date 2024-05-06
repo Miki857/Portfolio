@@ -1,0 +1,35 @@
+.topLanguages__section{
+    padding: 0.2rem 0;
+    margin-top: 4rem;
+
+    border-bottom: solid 1px rgba(0, 0, 0, 0.5);
+
+    .hot__skill{
+        border: solid 2px red;
+        border-radius: 50%;
+        padding: 0.4rem;
+    }
+
+    .hot__skill span{
+        padding: 0.4rem;
+        color: white;
+        background-color: black;
+        visibility: hidden;
+        
+        position: absolute;
+        left: 50%;
+        top: -130%;
+        transform: translateX(-50%) translateY(100%);
+    }
+
+    .hot__skill:hover span{
+        visibility: visible;
+    }
+
+    h5{
+        margin-top: 0.2rem;
+    
+        font-weight: var(--font-very-thin);
+        text-align: center;
+    }
+}
