@@ -1,5 +1,5 @@
 import React, { useRef } from 'react'
-import './css/header.css'
+import './css/header.css';
 
 const Header = () => {
     const showMenu = () => {
@@ -50,7 +50,7 @@ const Header = () => {
                         <li className='flex gap-00_5 align-center cursor-pointer'><i className='height-fitContent bx bx-library bx-md cursor-pointer' ></i>Education</li>
                     </a>
                     <a href="#resume">
-                        <li className='flex gap-00_5 align-center cursor-pointer'><i className='height-fitContent bx bxs-file-blank bx-md'></i>Resume</li>
+                        <li className='flex gap-00_5 align-center cursor-pointer'><i className='height-fitContent bx bxs-file-blank bx-md'></i>Contact</li>
                     </a>
                 </ul>
             </div>
