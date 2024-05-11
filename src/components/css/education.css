@@ -22,7 +22,7 @@
     .education__section{
         div{
             grid-template-columns: 1fr 1fr 1fr !important;
-            grid-template-rows: 20rem !important;
+            grid-template-rows: 1fr !important;
     
             img{
                 height: 100% !important;
