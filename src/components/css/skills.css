@@ -1,31 +1,23 @@
-.mainSkills{
+.skills__section{
+    width: 80%;
+    padding: 4rem 0;
+    max-height: 90vh;
+    justify-self: center;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    gap: 2rem;
+
     color: var(--text-color);
 
+    h2{
+        font-size: var(--font-size-big);
+    }
+}
+
+@media screen and (min-width: 1000px){
     .skills__section{
-        width: 100%;
-        max-width: 25rem;
-
-        h2{
-            align-self: center;
-            font-size: var(--font-size-very-big);
-        }
-
-        .skills_HR{
-            width: 100%;
-            height: 1px;
-            color: black;
-        }
-
-        .cards__container{
-            width: 100%;
-            padding: 0.5rem;
-            margin-top: 0.5rem;
-
-            .card{
-                padding: 1.3rem;
-                border-radius: 1rem;
-                border: solid 1px var(--text-color);
-            }
-        }
+        padding: 8rem 0 !important;
     }
 }

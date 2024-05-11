@@ -3,40 +3,26 @@ import './css/skills.css'
 
 const MainSkills = () => {
   return (
-    <section className='skills__section flex flex-column justify-center gap-02'>
-        <h2>Skills</h2>
-
-        <div className='container'>
-            <p>Programming Languages</p>
-            <hr className='skills_HR'/>
-            <div className='cards__container flex flex-column gap-01'>
-                <div className='card flex align-center'><p>JAVASCRIPT</p></div>
-            </div>  
+    <section className='skills__section' id='skills'>
+        <div className='flex flex-column gap-01'>
+            <h3>HTML</h3>
+            <h5>1 Year Expereince</h5>
         </div>
-
-        <div className='container'>
-            <p>Markup & Style</p>
-            <hr className='skills_HR'/>
-            <div className='cards__container flex flex-column gap-01'>
-                <div className='card flex align-center'><p>HTML</p></div>
-                <div className='card flex align-center'><p>CSS</p></div>
-            </div>
+        <div className='flex flex-column gap-01'>
+            <h3>CSS</h3>
+            <h5>1 Year Expereince</h5>
         </div>
-
-        <div className='container'>
-            <p>Libraries</p>
-            <hr className='skills_HR'/>
-            <div className='cards__container flex flex-column gap-01'>
-                <div className='card flex align-center'><p>REACT</p></div>
-            </div>
+        <div className='flex flex-column gap-01'>
+            <h3>REACT</h3>
+            <h5>1 Year Expereince</h5>
         </div>
-
-        <div className='container'>
-            <p>Methodology</p>
-            <hr className='skills_HR'/>
-            <div className='cards__container flex flex-column gap-01'>
-                <div className='card flex align-center'><p>BEM</p></div>
-            </div>
+        <div className='flex flex-column gap-01'>
+            <h3>JAVASCRIPT</h3>
+            <h5>1 Year Expereince</h5>
+        </div>
+        <div className='flex flex-column gap-01'>
+            <h3>TYPESCRIPT</h3>
+            <h5>1 Year Expereince</h5>
         </div>
     </section>
   )

@@ -1,12 +1,59 @@
-.mainPersonal{
-    color: var(--text-color);
+.personal__section{
+  width: 90%;
+  justify-self: center;
+  border-bottom: solid 1px white;
+  color: var(--text-color);
+  padding-bottom: 4rem;
 
-    p{
-      font-size: var(--font-size-medium);
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  gap: 2rem;
+
+  .landingInfo{
+
+    h2, p{
       text-align: center;
     }
-  
-    h1{
-      font-size: var(--font-size-big);
+  }
+
+  p{
+    font-size: var(--font-size-small);
+    font-weight: var(--font-very-thin);
+  }
+
+  .photo__container{
+    width: 75%;
+    height: 50vh;
+    background-color: #222;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  #photo{
+    width: 100%;
+    filter: grayscale(100%);
+  }
+}
+
+@media screen and (min-width: 1000px){
+  .personal__section{
+    width: 80%;
+    height: 90vh;
+    justify-content: space-between !important;
+    flex-direction: row !important;
+
+    h2, p{
+      text-align: left;
     }
   }
+
+  .photo__container{
+    width: 30rem !important;
+    height: 80vh !important;
+    position: absolute !important;
+    top: 0%;
+    right: 0;
+    z-index: 1;
+  }
+}

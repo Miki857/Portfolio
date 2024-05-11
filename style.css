@@ -1,12 +1,14 @@
 :root{
     --color-border-light: rgb(219, 219, 219);
     --color-border-light-bold: rgb(99, 99, 99);
-    --text-color: black;
+    --text-color: white;
     --bg-color: white;
+    --btn-bg-light: black;
 
-    --font-size-medium: 20px;
-    --font-size-big: 30px;
-    --font-size-very-big: 40px;
+    --font-size-small: 1rem;
+    --font-size-medium: 2rem;
+    --font-size-big: 3rem;
+    --font-size-very-big: 4rem;
 
     --font-very-thin: 200;
     --font-thin: 400;
@@ -17,16 +19,50 @@
 html{
     font-family: "Plus Jakarta Sans", sans-serif;
     font-weight: var(--font-medium);
+    scroll-behavior: smooth;
 }
 
 body{
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
-    background-color: var(--bg-color);
+    background-color: rgb(20, 20, 20);
 }
 
 #root{
     display: grid;
-    grid-template-rows: auto 1fr;
+    grid-template-rows: 1fr;
+}
+
+a{
+    text-decoration: none;
+    color: var(--text-color);
+}
+
+h4{
+    font-size: calc(var(--font-size-medium) / 2);
+}
+
+h3{
+    font-size: calc(var(--font-size-big) / 2.5);
+}
+
+h2{
+    font-size: calc(var(--font-size-very-big) / 2);
+}
+
+@media screen and (min-width: 1000px){
+
+    h4{
+        font-size: var(--font-size-medium);
+    }
+    
+    h3{
+        font-size: var(--font-size-big);
+    }
+    
+    h2{
+        font-size: var(--font-size-very-big);
+    }
+
 }
