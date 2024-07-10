@@ -8,6 +8,7 @@ import img5 from "./img/crudUsersTest.png";
 import img6 from "./img/ageCalculator.png";
 import img7 from "./img/RPS.png";
 import img8 from "./img/galletasFortuna.png";
+import img9 from "./img/natours.png";
 
 const MainProyects = () => {
   return (
@@ -28,6 +29,19 @@ const MainProyects = () => {
                   <div className='flex gap-01'>
                     <a target='_blank' href="https://e-commerce-mc.netlify.app/"><i className='bx bx-link-external bx-sm'></i></a>
                     <a target='_blank' href="https://github.com/Miki857/e-commerce"><i className='bx bxl-github bx-sm' ></i></a>
+                  </div>
+                </div> 
+            </div>
+            {/* NATOURS */}
+            <div className='card flex flex-column gap-01'>
+                <img src={img9} alt="natours" />
+
+                <h4>Natours APP</h4>  
+                <div className='flex justify-between'>
+                  <h5>HTML - REACT - CSS</h5>
+                  <div className='flex gap-01'>
+                    <a target='_blank' href="https://mc-natours.netlify.app/"><i className='bx bx-link-external bx-sm'></i></a>
+                    <a target='_blank' href="https://github.com/Miki857/Natours"><i className='bx bxl-github bx-sm' ></i></a>
                   </div>
                 </div> 
             </div>
