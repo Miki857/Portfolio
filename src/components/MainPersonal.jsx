@@ -1,6 +1,7 @@
 import React, { useRef } from 'react'
 import './css/mainPersonal.css'
 import photo from "./img/photo01-T.png";
+import cv from './files/Miguel Castillo CV ATS Friendly 2.0 (PUBLIC).pdf';
 
 const MainPersonal = () => {
     //SHOW MESSAGE:
@@ -29,7 +30,8 @@ const MainPersonal = () => {
                 </div>
                 <div className='flex align-center gap-01'>
                   <a href='#resume' className='button cursor-pointer'>HIRE ME</a>
-                  <p onClick={() => showMessage("open")} className='cursor-pointer'>Download CV</p>
+                  <a href={cv} download="CV - Miguel Castillo.pdf" className='cursor-pointer'>Download CV</a>
+                  {/* <p onClick={() => showMessage("open")} className='cursor-pointer'>Download CV</p> */}
                 </div>
             </div>
             
